@@ -1,5 +1,5 @@
 def is_interesting(number, awesome_phrases):
-	# go to https://www.codewars.com/kata/52c4dd683bfd3b434c000292to see question.
+	# go to https://www.codewars.com/kata/52c4dd683bfd3b434c000292 to see question.
     if len(str(number)) >= 3:
         if number in awesome_phrases or len(list(set(list(str(number))))) == 1:
             return 2
