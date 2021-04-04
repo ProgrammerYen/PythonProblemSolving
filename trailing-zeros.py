@@ -9,4 +9,4 @@ def trailing_zeros(n):
 
 	return num_count
 
-print(trailing_zeros(30))
+print(trailing_zeros(9000000))
