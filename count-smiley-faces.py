@@ -9,3 +9,5 @@ def count_smileys(arr):
                 count_smile += 1
                 
     return count_smile
+
+print(count_smileys([":-[", ";~D", ":-)"]))
