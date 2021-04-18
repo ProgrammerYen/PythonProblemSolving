@@ -1,4 +1,4 @@
-def beeramid(bonus, price):
+def beeramid(bonus, price): # O(n)
     number = 1
     num_count = 0
     while bonus >= (number ** 2) * price:
