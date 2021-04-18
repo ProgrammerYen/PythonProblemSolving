@@ -12,5 +12,5 @@ def squareRoot(x, guess): # O(n)
             return x/guess
             break
         
-findSqrt = squareRoot(27)
+findSqrt = squareRoot(45, 6.5)
 print(findSqrt)
