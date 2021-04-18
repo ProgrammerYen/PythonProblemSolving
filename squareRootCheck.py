@@ -6,11 +6,9 @@ def squareRoot(x, guess): # O(n)
                 
             else:
                 return (guess+x/guess)/2
-                break
                 
         else:
             return x/guess
-            break
         
 findSqrt = squareRoot(45, 6.5)
 print(findSqrt)
